@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (onboardingViewPager.getCurrentItem() + 1 < onboardingAdapter.getItemCount()){
-
+                    onboardingViewPager.setCurrentItem(onboardingViewPager.getCurrentItem()+1);
                 }else{
                     startActivity( new Intent(MainActivity.this, HomeActivity.class));
                     finish();
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        if (index == onboardingViewPager.getCurrentItem()-1){
+        if (index == onboardingAdapter.getItemCount()-1){
             buttonOnboardingAction.setText("Start");
         }else{
             buttonOnboardingAction.setText("Next");
