@@ -18,6 +18,7 @@ import com.shoaib.onboardingscreens.model.OnboardingItem;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         layoutOnboardingIndicators = findViewById(R.id.layoutOnboardingIndicators);
         buttonOnboardingAction = findViewById(R.id.buttonOnboardingAction);
+
+        //Hide Action bar
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         onboardingViewPager = findViewById(R.id.onboardingViewPager);
         setupOnboardingItems();
