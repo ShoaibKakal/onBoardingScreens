@@ -1,5 +1,4 @@
 # Android-Splash-Screen
-# Overview
 <Img src="app/src/main/java/Images/intro.gif" height ="500">
   
   ## Concepts
