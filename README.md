@@ -1,4 +1,4 @@
-# Android-Splash-Screen
+# OnBoardinScreens
 <Img src="app/src/main/java/Images/intro.gif" height ="500">
   
   ## Concepts
