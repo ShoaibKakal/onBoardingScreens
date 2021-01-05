@@ -4,6 +4,6 @@
   ## Key Concepts
   -Implement LinearLayout Programatically.
   
-  -ViewPager2..
+  -ViewPager2
   
   -Adapter
